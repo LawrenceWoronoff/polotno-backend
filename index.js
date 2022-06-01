@@ -10,7 +10,7 @@ const express = require('express'),
   cors = require('cors');
 
 // Database Setup
-mongoose.connect(config.database);
+// mongoose.connect(config.database);
 
 // for testing
 app.use(cors());
